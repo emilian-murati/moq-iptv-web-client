@@ -56,6 +56,7 @@ export const CURRENT_SUPPORTED_DRAFT = DRAFT_IETF_MOQ_TRANSPORT_03;
 2. **Enter the Playlist URL:**
 
    In the input field labeled "Enter IPTV Playlist URL," input the URL of your M3U playlist and click "Load Playlist."
+   Sample iptv playlist (https://iptv-org.github.io/iptv/categories/outdoor.m3u)
 
 3. **Select a Channel:**
 
