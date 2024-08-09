@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Playlist Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Enter IPTV Playlist URL</h1>
+    <input type="text" id="playlistUrl" placeholder="Enter playlist URL here">
+    <button id="loadPlaylist">Load Playlist</button>
+
+    <div id="loadingIndicator" style="display: none;">Loading playlist and fetching the channels that work, please wait...</div>
+    
+    <ul id="channelList"></ul>
+    
+    <video id="videoPlayer" controls></video>
+    
+    <script src="bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#playlistUrl {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+#loadPlaylist {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#loadPlaylist:hover {
+    background-color: #218838;
+}
+
+#loadPlaylist:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+#channelList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#channelList li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#channelList li:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#videoPlayer {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#loadingIndicator {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+}
